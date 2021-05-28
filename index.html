@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>Tampopo Ramen | Japanese Cuisine</title>
+    <!--   Code-->
+    <script src="code.js"></script>
+    <!-- Includes our icon-->
+    <link rel="icon" href="images\ramen.png">
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<div class="desktop-nav">
+    <nav>
+        <div class="nav-links">
+            <a href="index.html"><img src="images\Logo.jpg" id="header-logo" alt="logo" height="125px"
+                    width="125px"></a>
+            <li><a href="index.html"class="active">Home</a></li>
+            <li><a href="About.html" >About</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="Reservation.html">Reservations</a></li>
+        </div>
+    </nav>
+</div>
+<div class="mobile-container">
+    <nav>
+        <div class="mobile-nav-links">
+            <a href="index.html"><img src="images\Logo.jpg" id="header-logo" alt="logo" height="125px" width="125px"></a>
+            <div id="myLinks">
+                <li><a href="index.html"class="active">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Reservation.html">Reservations</a></li>
+            </div>
+            <a href="#" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+</div>
+
+
+<header>
+    <h1>Tampopo Ramen</h1>
+    <p>Longtime residents of Washington Heights, husband and wife team Josh and Nanae Mameuda-Frank dreamed of creating
+        a restaurant that improves on the neighborhood experience. Tampopo Ramen is Josh and Nana's first permanent
+        location.</p>
+    <p>Tampopo means "dandelion" in Japanese, but the name was inspired by their favorite food movie, Tampopo, a cult
+        classic film by Itami Juzo about the quest for the perfect bowl of ramen. </p>
+    <div class="socials">
+        <a href="https://www.instagram.com/tampoporamennyc/" target="_blank">
+            <i class="fa fa-instagram" alt="Instagram"></i>
+        </a>
+
+        <a href="https://www.facebook.com/tampoporamenNYC/" target="_blank">
+            <i class="fa fa-facebook-square" alt="Facebook"></i>
+        </a>
+    </div>
+    <p id="address">1 Bennett Ave, New York, NY 10033</p>
+    <a id="learn-more" href="#main-home">Learn More</a>
+</header>
+<p id="mapholder"></p>
+<main id="main-home">
+
+    <body>
+        <h1 id="heading">Welcome All</h1>
+        <section id="left">
+            <h3 class="logo-heading">Covid</h3>
+            <img src="images\mask.png" alt="Covid" class="logo">
+            <p>Due to Covid, <strong>All Patrons</strong> are Required to Wear a Mask Until You are Ready to Eat</p>
+        </section>
+
+        <section id="middle">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="logo-heading">Japanese Cuisine</h3><br>
+            <img src="images\—Pngtree—soup icon for your project_5180489.png" alt="Covid" class="logo">
+            <p><strong>Authentic Japanese</strong> Cuisine Coming Straight from Washington Heights</p>
+        </section>
+
+        <section id="right">
+            <h3 class="logo-heading">Better With Friends</h3>
+            <img src="images\user-friends-solid.svg" class="logo" id="friends">
+            <p>Better with Friends, and Save <strong>15%</strong> off Your Order when party is greater than
+                <strong>4</strong>.
+            </p>
+        </section>
+        <div class="line"></div>
+        <br><br><br><br>
+        <p class="engage">
+            Does it sound like your cup of soup? <br>Check out the Menu
+        </p>
+
+        <a id="menu-btn" href="Menu.html">Menu</a>
+        <div class="line"></div>
+        <h1 id="map-title"> Washington Heights Locations</h1>
+        <div id="map-1">
+            <div id="map"></div>
+        </div>
+
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmca1Y0LreAhDtr0yAtMQF5NuzJNflQmc&callback=initMap&libraries=&v=weekly"
+            async></script>
+    </body>
+</main>
+<div class="space"></div>
+<footer>
+    <h1 class="footer-heading">Jose Amarante &copy; 2021</h1>
+    <div class="space"></div>
+    <div class="socials">
+        <a href="https://www.instagram.com/tampoporamennyc/" target="_blank">
+            <i class="fa fa-instagram" alt="Instagram"></i>
+        </a>
+
+        <a href="https://www.facebook.com/tampoporamenNYC/" target="_blank">
+            <i class="fa fa-facebook-square" alt="Facebook"></i>
+        </a>
+    </div>
+</footer>
+
+</html>
